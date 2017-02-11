@@ -1,0 +1,502 @@
+MacBook:~ e$ history
+    2  lsf ..
+    3  lsf ../designPatterns/
+    4  cd ../designPatterns/
+    5  lsf
+    6  mkdir decorator
+    7  ls
+    8  mv decorator.php decorator/
+    9  ls
+   10  lsf
+   11  mkdir adapter
+   12  cp -r ../test/* ./adapter/
+   13  ls adapter/
+   14  whereis tree
+   15  ls -R
+   16  alias lsf
+   17  ls -lR
+   18  cd
+   19  lsf
+   20  ls .ssh
+   21  cat .ssh/known_hosts 
+   22  cd -
+   23  cd ../test
+   24  lsf
+   25  composer dumpautoload
+   26  composer dumpautoload
+   27  composer dumpautoload
+   28  composer dumpautoload
+   29  composer dumpautoload
+   30  composer dumpautoload
+   31  composer dump-autoload
+   32  composer update
+   33  composer dump-autoload
+   34  composer install
+   35  lsf ../designPatterns/
+   36  mkdir -p ../designPatterns/template-method && cp -r ./* ../designPatterns/template-method
+   37  ls -R ../designPatterns/template-method
+   38  lsf ../designPatterns/
+   39  lsf ../designPatterns/
+   40  echo `mkdir aha`
+   41  lsf
+   42  rm aha
+   43  rmdir aha
+   44  cd ..
+   45  lsf
+   46  laravel new el
+   47  laravel new el
+   48  cd el
+   49  lsf
+   50  subl .
+   51  composer require laracasts/generators
+   52  pa
+   53  pa help make:seed
+   54  pa help make:seeder
+   55  pa make:migration:schema -h
+   56  pa make:migration -h
+   57  pa make:migration:schema create_posts_table --schema="user_id:integer:foreign,title:string,body:text"
+   58  brew install sqlite
+   59  brew
+   60  brew doctor
+   61  brew config
+   62  pa migrate
+   63  pa
+   64  pa migrate:status
+   65  pa migrate:refresh
+   66  pa
+   67  pa migrate:reset
+   68  pa migrate:reset
+   69  pa migrate
+   70  pa migrate:reset
+   71  composer
+   72  composer remove laracasts/generators
+   73  composer remove laracasts/generators --dev
+   74  cd ..
+   75  lsf
+   76  rm -rf el
+   77  laravel new el
+   78  ls
+   79  cd el
+   80  lsf
+   81  cd ..
+   82  rmdir el
+   83  clear
+   84  laravel new el
+   85  subl .
+   86  ls
+   87  cd el
+   88  lsf
+   89  subl .
+   90  pa
+   91  pa make:migration create_posts_table --create=posts
+   92  pa migrate
+   93  pa migrate:refresh
+   94  pa migrate:status
+   95  pa migrate:rollback
+   96  pa migrate:status
+   97  pa migrate
+   98  pa
+   99  pa help make:migration
+  100  pa help make:model
+  101  pa make:model Post
+  102  pa help make:seeder
+  103  pa help migrate:refresh
+  104  pa make:seeder PostsTableSeeder
+  105  cd ../test
+  106  lsf
+  107  subl .
+  108  open
+  109  open .
+  110  cd ../el
+  111  tkr
+  112  tkr
+  113  pa
+  114  pa db:seed
+  115  tkr
+  116  pa db:seed
+  117  tkr
+  118  pa db:seed
+  119  tkr
+  120  pa
+  121  pa help make:model
+  122  pa make:model Comment -m
+  123  pa migrate
+  124  pa make:seeder -h
+  125  pa make:seeder CommentsTableSeeder
+  126  pa make:seeder UsersTableSeeder
+  127  pa db:seed
+  128  pa db:seed
+  129  pa migrate:status
+  130  pa help migrate:refresh
+  131  pa migrate:refresh --seed
+  132  tkr
+  133  tkr
+  134  tkr
+  135  cd ../test
+  136  subl .
+  137  quit
+  138  clear
+  139  clear
+  140  cd ../el
+  141  pa
+  142  pa make:model Adjustment -m
+  143  pa migrate:refresh --seed
+  144  pa migrate:refresh --seed
+  145  tkr
+  146  pa
+  147  pa make:controller -h
+  148  pa make:controller -m=Post
+  149  pa make:controller --model=Post
+  150  pa make:controller --model=Post PostsController
+  151  pa
+  152  pa route:list
+  153  cd code/el
+  154  lsf
+  155  valet links
+  156  valet link el
+  157  tkr
+  158  pa
+  159  tkr -h
+  160  pwd
+  161  pa route:list
+  162  tkr
+  163  tkr
+  164  tkr
+  165  tkr
+  166  tkr
+  167  tkr
+  168  tkr
+  169  pa migrate:refresh --seed
+  170  tkr
+  171  cd code/el
+  172  pa make:model -h
+  173  pa make:model Lesson -m -c
+  174  pa
+  175  pa make:seeder -h
+  176  pa make:seeder LessonsTableSeeder
+  177  pa db:seed -h
+  178  pa migrate:status
+  179  pa migrate:refresh -h
+  180  pa migrate:refresh --seed --seeder=LessonsTableSeeder
+  181  tkr
+  182  cd ../test
+  183  lsf
+  184  composer config repo
+  185  composer require phpunit/phpunit --dev
+  186  composer
+  187  composer show --platform
+  188  lsf vendor/bin
+  189  lsf vendor/bin/../phpunit/phpunit/phpunit
+  190  mkdir tests
+  191  touch tests/CustomerIsGoldTest.php
+  192  lsf
+  193  phpunit --colors tests
+  194  vendor/bin/phpunit --colors tests
+  195  pu
+  196  export "alias pu='./vendor/bin/phpunit'"
+  197  export alias pu='./vendor/bin/phpunit'
+  198  lsf ~
+  199  cd
+  200  cat .bash_profile
+  201  cd -
+  202  pu --colors tests
+  203  alias pu='./vendor/bin/phpunit'
+  204  pu --colors tests
+  205  pu --colors tests
+  206  pu --colors tests
+  207  pu --colors tests
+  208  pu --colors tests
+  209  pu --colors tests
+  210  composer dump-autoload
+  211  pu --colors tests
+  212  pu --colors tests
+  213  pu --colors tests
+  214  pu --colors tests
+  215  cd code/test
+  216  lsf
+  217  history
+  218  pu --colors tests
+  219  alias pu='./vendor/bin/phpunit --colors tests'
+  220  pu
+  221  pu
+  222  pu
+  223  pu
+  224  pu
+  225  composer dump-autoload
+  226  pu
+  227  pu
+  228  pu
+  229  pu
+  230  pu
+  231  pu
+  232  pu
+  233  pu
+  234  pu
+  235  pu
+  236  pu
+  237  pu
+  238  pu
+  239  composer require illuminate/database
+  240  pu
+  241  pu
+  242  pu
+  243  pu
+  244  pu
+  245  pu
+  246  pu
+  247  pu
+  248  pu
+  249  pu
+  250  pu
+  251  pu
+  252  pu
+  253  pu
+  254  pu
+  255  pu
+  256  cp -h
+  257  cd ..
+  258  lsf
+  259  mkdir -p designPatterns/specification
+  260  cp -r test/* designPatterns/specification/
+  261  open designPatterns/
+  262  mysql -uroot
+  263  lsf
+  264  laravel new ld
+  265  cd ld
+  266  lsf
+  267  subl .
+  268  pa
+  269  pa make:migration -h
+  270  pa make:migration create_lessons_table --create=lessons
+  271  pa migrate
+  272  pa make:model Lesson
+  273  pa make:model -h
+  274  pa make:seeder -h
+  275  pa make:seeder LessonsTableSeeder
+  276  pa db:seed
+  277  mysql -uroot
+  278  pa route:list
+  279  pa make:controller LessonsController
+  280  pa make:controller -h
+  281  pa route:list
+  282  pa route:list
+  283  pa route:list
+  284  pa route:list
+  285  cd code/ld
+  286  lsf
+  287  pa route:list
+  288  pa make:controller -h
+  289  pa make:controller -r LessonsController
+  290  valet link ld
+  291  curl -v
+  292  curl --version
+  293  python -v
+  294  pa migrate:refresh --seed
+  295  cd code/test
+  296  lsf
+  297  subl .
+  298  cd ../laralearn/
+  299  pa
+  300  pa make:event -h
+  301  pa make:listener -h
+  302  pa make:listener EmailNotifier --event=UserLogin
+  303  pa make:event UserLogin
+  304  cd ../un
+  305  lsf
+  306  lsf .idea
+  307  cd ../test
+  308  subl .
+  309  cd ..
+  310  mkdir c
+  311  cd c
+  312  subl .
+  313  php index.php 
+  314  pa
+  315  cd ../ld
+  316  pa
+  317  lsf
+  318  subl .
+  319  tkr
+  320  pa
+  321  whereis wget
+  322  whereis curl
+  323  whereis http
+  324  curl --request GET   --url http://ld.dev/api/v1/lessons   --header 'cache-control: no-cache' 
+  325  curl --request GET   --url http://ld.dev/api/v1/lessons/9   --header 'cache-control: no-cache'   --header 'postman-token: 51cea41a-4521-99ca-bcb4-7cd1e78a6d50'
+  326  clear
+  327  exit
+  328  open code/designPatterns/
+  329  cd code
+  330  lsf
+  331  cd ld
+  332  lsf
+  333  subl .
+  334  lsf
+  335  tkr
+  336  pa
+  337  pa make:aut -h
+  338  pa route:list
+  339  cd code/ld
+  340  subl .
+  341  mysql -uroot
+  342  cd code/ld
+  343  pa
+  344  tkr
+  345  pa 
+  346  pa db:seed -h
+  347  pa migrate:refresh -h
+  348  whereis phpunit
+  349  which phpunit
+  350  subl
+  351  tkr
+  352  tkr
+  353  ping -c 5 downloads.atlassian.com
+  354  tkr
+  355  cd code/ld
+  356  subl
+  357  tkr
+  358  cd code/ld
+  359  subl
+  360  pa route:list
+  361  exit
+  362  cd code/ld
+  363  tkr
+  364  php -r "return print_r([2,3],true)"
+  365  php -r "return print_r([2,3],true);"
+  366  cd code/test
+  367  lsf
+  368  valet links
+  369  subl .
+  370  exit
+  371  cd code/ld
+  372  tkr
+  373  cat /usr/local/etc/php/7.0/php.ini
+  374  whereis sendmail
+  375  cd ../test
+  376  lsf
+  377  php -h
+  378  php index.php 
+  379  php index.php 
+  380  php index.php 
+  381  php index.php 
+  382  php index.php 
+  383  php index.php 
+  384  cd algrithm/
+  385  php maopao.php 
+  386  php maopao.php 
+  387  php maopao.php 
+  388  clear
+  389  php maopao.php 
+  390  cd code/ld
+  391  tkr
+  392  composer show --platform
+  393  php -v
+  394  php -m
+  395  php -i
+  396  lsf /usr/local/bin/php
+  397  tkr
+  398  pwd
+  399  cd /code/test
+  400  cd code/test
+  401  composer show --platform
+  402  php -h
+  403  php -a
+  404  clear
+  405  php -m | grep intl
+  406  php -m
+  407  cd code/test
+  408  subl
+  409  cd code/test
+  410  subl
+  411  php -r 'echo __DIR__;'
+  412  cd code/test
+  413  subl
+  414  open
+  415  open .
+  416  cd code/test
+  417  subl 
+  418  cd ..
+  419  lsf
+  420  cd laralearn/
+  421  lsf
+  422  subl .
+  423  cd ../el
+  424  lsf
+  425  cd code/el
+  426  subl
+  427  subl .
+  428  pa make:model -h
+  429  pa make:model -m Phone
+  430  pa
+  431  pa migrate:refresh -h
+  432  pa migrate:refresh --seed
+  433  pa migrate:refresh --seed
+  434  pa migrate:refresh --seed --force
+  435  pa migrate:refresh --seed 
+  436  tkr
+  437  tkr
+  438  clear
+  439  pa
+  440  tkr
+  441  cd code/el
+  442  lsf
+  443  subl
+  444  tkr
+  445  pa
+  446  pa make:model -h
+  447  pa make:model -h
+  448  pa make:model Phone_User
+  449  tkr
+  450  tkr
+  451  pa migrate:refresh -h
+  452  pa migrate:status
+  453  pa migrate:refresh --step=1
+  454  tkr
+  455  cd code/el
+  456  tkr
+  457  cd code/el
+  458  subl
+  459  subl .
+  460  cd code/el
+  461  subl
+  462  pa make:model -h
+  463  pa make:model Country -m
+  464  pa migrate:refresh
+  465  tkr
+  466  subl
+  467  cd code/el
+  468  tkr
+  469  tkr
+  470  tkr
+  471  cd code/el
+  472  subl
+  473  pa make:model Video -m
+  474  pa migrate:refresh
+  475  pa migrate:status
+  476  tkr
+  477  which sqlite
+  478  whereis sqlite
+  479  sqlite
+  480  whereis sqlite3
+  481  sqlite3 -h
+  482  sqlite3 -help
+  483  sqlite3 -version
+  484  cd code/el
+  485  subl
+  486  pa
+  487  pa db:seed
+  488  cd code
+  489  lsf
+  490  pa
+  491  history | grep cd
+  492  cd el
+  493  lsf
+  494  subl
+  495  top
+  496  cd code/el
+  497  subl
+  498  history
+  499  php -v
+  500  pa
+  501  history
+MacBook:~ e$ 
